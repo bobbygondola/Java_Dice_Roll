@@ -5,6 +5,6 @@ public class DiceRoll {
         Random generateRandomInt = new Random();
         int x = generateRandomInt.nextInt(6) + 1;
 
-        System.out.println("You rolled a " + x);
+        System.out.println("You have rolled a " + x);
     }
 }
